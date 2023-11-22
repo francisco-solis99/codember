@@ -33,6 +33,7 @@ const inputFile = new URL(FILENAME, import.meta.url)
 const messageCoded = await readDataFromFile(inputFile);
 
 const messageCompiled = compileMessage(messageCoded);
+console.log(messageCompiled)
 
 
 function compileMessage(message){
