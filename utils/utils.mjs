@@ -7,6 +7,6 @@ export async function readDataFromFile(inputFile) {
   } catch (error) {
     console.error('Something gone wrong')
     console.log(error)
-    return '';
+    return;
   }
 }
